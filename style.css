@@ -1,0 +1,114 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: ; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+body {
+	background: url('http://payload336.cargocollective.com/1/17/574234/9036846/DSC_0374.jpg') repeat fixed center center / cover;
+}
+div { 
+	background: rgba(255,255,255,0.6);
+	height: 430px;
+	width: 360px;
+    padding: 5px;
+    margin: 175px 0;
+	border-radius: 9px 0 0 9px;
+    float: right;
+    
+}
+h1 {
+   
+    font-size: 40px;
+    font-family: 'Lobster', cursive;    
+
+}
+#title {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #190CD4;
+    
+    
+    
+}
+#title p {
+   background: #c0acad;
+   margin-left: -5px;
+   border-radius: 0 5px 5px 0;
+   padding: 6px 0;
+   
+   
+   
+}
+.duties {
+   font-family: 'Lora', serif;
+    font-size: 15px;
+}
+ul.sprites {
+	list-style-type: none;
+}
+ul.sprites li {
+	padding: 5px;
+	
+}
+ul.sprites li a {
+	height: 100px;
+	line-height: 100px;
+	display: inline-block;
+	padding-left: 60px;
+	
+	background: url("social.png") no-repeat;
+}
+ul.sprites li.instagram a {
+	background-position: 0 0;
+}
+ul.sprites li.twitter a {
+	background-position: 0 -100px;
+}
+ul.sprites li.dribble a {
+	background-position: 0 -200px;
+}
+ul.sprites li.instagram a:hover {
+	background-position: 0 -50px;
+}
+ul.sprites li.twitter a:hover {
+	background-position: 0 -150px;
+}
+ul.sprites li.dribble a:hover  {
+	background-position: 0 -250px;
+}
