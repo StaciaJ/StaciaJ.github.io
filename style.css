@@ -79,36 +79,3 @@ h1 {
    font-family: 'Lora', serif;
     font-size: 15px;
 }
-ul.sprites {
-	list-style-type: none;
-}
-ul.sprites li {
-	width: 100px;
-	height: 100px
-	float: right;
-	padding: 5px;
-	}
-ul.sprites li a {
-	width: 100px;
-	height: 100px;
-	display: block;
-	background: url("social.png") no-repeat;
-}
-ul.sprites li.instagram a {
-	background-position: 0 0;
-}
-ul.sprites li.twitter a {
-	background-position: 0 -50px;
-}
-ul.sprites li.dribble a {
-	background-position: 0 -100px;
-}
-ul.sprites li.instagram a:hover {
-	background-position: 0px -25px;
-}
-ul.sprites li.twitter a:hover {
-	background-position: 0 -50px;
-}
-ul.sprites li.dribble a:hover  {
-	background-position: 0 -100px;
-}
