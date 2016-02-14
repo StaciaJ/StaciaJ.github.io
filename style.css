@@ -104,11 +104,11 @@ ul.sprites li.dribble a {
 	background-position: 0 -100px;
 }
 ul.sprites li.instagram a:hover {
-	background-position: 0 -50px;
+	background-position: 0px -25px;
 }
 ul.sprites li.twitter a:hover {
-	background-position: 0 -100px;
+	background-position: 0 -50px;
 }
 ul.sprites li.dribble a:hover  {
-	background-position: 0 -150px;
+	background-position: 0 -100px;
 }
